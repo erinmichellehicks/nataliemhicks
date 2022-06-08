@@ -1,0 +1,49 @@
+body {
+  background-image: url('https://img.freepik.com/free-vector/greenery-watercolor-floral-seamless-pattern-design_44538-4917.jpg?t=st=1654568984~exp=1654569584~hmac=585e201b877c15912db9426c054a4c38d2cc4188646d254969ff4ae2b4f2bda6&w=740');
+  color: #c5d69f;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Style Script', cursive;
+}
+
+h1 {
+  color: #c5d69f;
+  font-family: 'Style Script', cursive;
+  font-size: 4rem;
+  text-shadow: 2px 2px #181818;
+}
+
+h2 {
+  color: #c5d69f;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #181818;
+  font-size: 1.8rem;
+  letter-spacing: 3px;
+  line-height: 1px;
+  padding-bottom: 10px;
+
+}
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 1.5;
+  
+}
+
+.container {
+  margin: 50px 50px 50px 50px;
+  text-align: center;
+  background-color: white;
+  background: rgba(43, 97, 61, 0.9);
+}
+
+.fade-in-text {
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
